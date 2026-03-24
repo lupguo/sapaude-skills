@@ -5,13 +5,12 @@
     "email": "lupingguo@gmail.com"
   },
   "metadata": {
-    "description": "个人 Claude Code 技能集合，覆盖 plan/dev/test/release/ops 全生命周期",
-    "pluginRoot": "./plugins"
+    "description": "个人 Claude Code 技能集合，覆盖 plan/dev/test/release/ops 全生命周期"
   },
   "plugins": [
     {
       "name": "sapaude",
-      "source": "sapaude",
+      "source": "./plugins/sapaude",
       "description": "个人技能库：覆盖 plan/dev/test/release/ops 全生命周期",
       "version": "1.0.0",
       "author": { "name": "lupingguo" },
