@@ -10,7 +10,11 @@
   "plugins": [
     {
       "name": "sapaude",
-      "source": "./plugins/sapaude",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lupguo/sapaude-skills.git",
+        "path": "plugins/sapaude"
+      },
       "description": "个人技能库：覆盖 plan/dev/test/release/ops 全生命周期",
       "version": "1.0.0",
       "author": { "name": "lupingguo" },
